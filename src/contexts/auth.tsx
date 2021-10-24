@@ -87,4 +87,3 @@ export function AuthProvider(props: AuthProvider){
         </AuthContext.Provider>
     );
 }
-

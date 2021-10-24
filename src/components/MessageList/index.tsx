@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import styles from './styles.module.scss';
 import { api } from '../../services/api';
 import io from 'socket.io-client';
+import Tooltip from 'react-tooltip';
 
 type Message = {
     id: string;
